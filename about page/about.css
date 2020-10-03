@@ -4,7 +4,16 @@ body *{
   font-family: 'Roboto', sans-serif;
 }
 
-.corporate-text-css .corp-overlay{
+.about-top-sec{
+  background: url(../images/pexels-ray-bilcliff-1672813.jpg);
+  height: 60vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.about-top-sec .about-overlay{
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   top: 0;
@@ -13,30 +22,19 @@ body *{
   height: 100%;
 }
 
-.corporate-text-css{
-  background: url(../images/corp-image.jpg);
-  height: 60vh;
-  width: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-}
-
-.grouped-content{
+.top-text-container{
   z-index: 1;
-}
-
-.grouped-content h2{
   font-family: 'Roboto', sans-serif;
-  font-weight: 900;
 }
 
-#yci{
-  font-weight: 900;
-}
-
-.sub-text{
-  width: 60%;
+.top-text-container p{
+  text-align: center;
   font-weight: 100;
-  font-size: 22px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+.main-main{
+  
 }
