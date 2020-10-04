@@ -64,21 +64,23 @@ body *{
   width: 70px;
   height: 90px;
 }
-
 .Yelofim-logo{
   width: 173px;
   height: 35px;
 }
 .yelofim-nav{
   position: absolute;
-  top: 10px;
+  top: 0px;
   left: 2%;
-  z-index: 10000;
+  z-index: 10;
+  margin-top: 1% !important;
+}
+.yelofim-nav a img{
+  width:15%;
 }
 .button-container{
   text-align: center;
 }
-
 .button-container a{
   background-color: #F1D325;
   padding: 10px 50px;
@@ -88,80 +90,65 @@ body *{
   border-radius: 40px;
   color: black;
 }
-
 .button-container a:hover{
   background-color: black;
   border: 2px solid yellow;
   color: white;
 }
-
 .text-after-button .text-content-afb{
   font-size: 12px;
   font-weight: 100;
 }
-
 .img-container{
   background-color: rgba(0, 0, 0, 0.9);
 }
-
 .divider{
   width: 100%;
   height: 1px;
   background-color: #F1D325;
   opacity: .3;
 }
-
 .inner-padding{
   margin-top: 42px;
 }
-
 #movie-display-container{
   background-color: #131313;
   height: 100vh;
 }
-
 #watch-everywhere-container{
   background-color: #131313;
   height: 85vh;
 }
-
 .watch-everywhere-text p{
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
   width: 60%;
 }
-
 .img-box img{
   width: 265px;
   height: 186px;
   border-radius: 45px;
 }
-
 .img-box img:hover{
   transform: scale(1.1);
 }
-
 .img-resize img{
   width: 245px;
   height: 75px;
   border-radius: 10px;
 }
-
 .img-resize img:hover{
   transform: scale(1.1);
 }
-
 .footer-area{
   height: 50vh;
   background-color: black;
 }
-
 .footer-area a{
   text-decoration: none;
   color: #575757;
   font-size: 14px;
 }
-
 .footer-area a:hover{
   font-size: 14.3px;
   color: #b4b4b4;
