@@ -69,7 +69,12 @@ body *{
   width: 173px;
   height: 35px;
 }
-
+.yelofim-nav{
+  position: absolute;
+  top: 10px;
+  left: 2%;
+  z-index: 10000;
+}
 .button-container{
   text-align: center;
 }
