@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/index-collins.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/movie-specifics.css">
+    <title>Yelofim</title>
+</head>
+
+<body>
+
+    <div id="app">
+        <div class="nav-bar-collins">
+            <!-- Search modal -->
+
+            <div id="search-modal" class="container-fluid">
+                <div class="modal-kontent">
+
+                    <div class="search-modal-top d-flex justify-content-between align-items-center">
+
+                        <div class="search-modal-top1">
+                            <div>
+                                <i class="fas fa-arrow-left"></i>
+                                <span>Back</span>
+                            </div>
+                        </div>
+
+                        <div class="search-modal-top2">
+                            <div class="search-box-area d-flex justify-content-start align-items-center">
+                                <input type="text" class="search-boxx" placeholder="Search">
+                                <img src="assets/image//search-icon.png" alt="" class="icon-beside-search">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="search-results container">
+                        <div class="row">
+                            <div class="col">
+                                <img src="assets/image//Search-modal01.png" alt="">
+                            </div>
+                            <div class="col">
+                                <img src="assets/image//Search-modal02.png" alt="">
+                            </div>
+                            <div class="col">
+                                <img src="assets/image//Search-modal01.png" alt="">
+                            </div>
+                            <div class="col">
+                                <img src="assets/image//Search-modal02.png" alt="">
+                            </div>
+                            <div class="col">
+                                <img src="assets/image//Search-modal02.png" alt="">
+                            </div>
+                            <div class="col">
+                                <img src="assets/image//Search-modal01.png" alt="">
+                            </div>
+                            <div class="col">
+                                <img src="assets/image//Search-modal02.png" alt="">
+                            </div>
+                            <div class="col">
+                                <img src="assets/image//Search-modal01.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Search modal ends here -->
+
+            <div class="container-fluid header-section d-flex justify-content-around align-items-center">
+
+                <!-- Hamburger + logo section -->
+
+                <div class="hamburger-modal">
+                    <div class="hamburger-content">
+
+                        <div class="settings-section d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="the-settings">Settings</span>
+                            </div>
+                            <div>
+                                <span class="the-x">X</span>
+                            </div>
+                        </div>
+
+                        <div class="account-section">
+                            <span class="the-account">Account</span>
+                            <div class="account-body">
+                                <span class="add-border">Account Details</span>
+                                <span class="add-border">Privacy Statement</span>
+                                <span class="add-border">Terms of Use</span>
+                            </div>
+                        </div>
+
+                        <div class="download-section">
+                            <span class="the-download">Downloads</span>
+                            <div class="download-body">
+                                <div class="video-quality">
+                                    <span class="add-border exclude-border">Video Quality</span>
+                                    <span class="high">High</span>
+                                </div>
+
+                                <div class="delete-section d-flex justify-content-between align-items-end">
+                                    <div>Delete All Downloads</div>
+                                    <div class="download-trash-btn">
+                                        <i class="fas fa-trash-alt"></i>
+                                    </div>
+                                </div>
+                                <div class="storage-details">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 50%"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+                                    <div class="storage-footer d-flex justify-content-between align-items-center">
+
+                                        <div class="d-flex justify-content-start align-items-center sfooter-last">
+                                            <span id="gray-box"></span>
+                                            <span class="">Used | 520 Gb </span>
+                                        </div>
+
+                                        <div class="d-flex justify-content-start align-items-center sfooter-last2">
+                                            <span id="yellow-box"></span>
+                                            <span>Yelofim | 520 Gb </span>
+                                        </div>
+
+                                        <div class="d-flex justify-content-start align-items-center">
+                                            <span id="white-box"></span>
+                                            <span>Free | 520 Gb </span>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="smart-download">
+                                        <div class="download-toggle d-flex justify-content-between align-items-center">
+                                            <div class="sd-text">Smart Downloads</div>
+
+                                            <!-- Rounded switch -->
+                                            <label class="switch">
+                                                <input type="checkbox">
+                                                <span class="slider round"></span>
+                                            </label>
+                                        </div>
+
+                                        <div class="sd-warning">
+                                            Viewed episodes will be deleted and replaced
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="header-sec1 d-flex justify-content-center align-items-end">
+                    <div class="hamburger-container">
+                        <div class="hamburger-icon">
+                            <div class="hamburger-icon">
+                                <img src="assets/image//hamburger-icon.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="yelofim-logo d-flex justify-content-center align-items-end">
+                        <a href="http://yelofim.com/" class="d-flex justify-content-center align-items-end">
+                            <img src="assets/image//FavIcon1 2.png" alt="">
+                            <span class="elofim text-white">elofim</span>
+                        </a>
+
+                    </div>
+                </div>
+                <!-- Hamburger + logo section ends here -->
+
+                <!-- MENU MODAL MODAL -->
+
+                <div class="menu-modal">
+                    <div class="menu-modal-content">
+                        <div class="d-flex justify-content-end">
+                            <span class="the-x menu-close">X</span>
+                        </div>
+                        <div class="menu-add-padding">
+
+                            <div class="d-flex align-items-center my-item1">
+                                <img src="assets/image//download-icon.png" class="download-icon" alt="">
+                                <a href="my-downloads.html" class="link-style downloads-text">My Downloads</a>
+                            </div>
+
+                            <div class="d-flex align-items-center my-item2">
+                                <img src="assets/image//settings-icon.png" class="settings-icon" alt="">
+                                <a href="#" class="link-style settings-text">Settings</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- MENU MODAL MODAL ENDS HERE -->
+
+                <!-- Nav Section -->
+                <div class="header-sec2">
+                    <nav class="d-flex justify-content-center align-items-center">
+                        <ul class="nav-ul mb-0">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="my-list.html">My list</a></li>
+                            <li><a href="trending.html">Trending</a></li>
+
+                            <li class="other-lists">
+                                <a href="#">Genre</a>
+                                <img src="assets/image//arrow-down.png" class="carrot-sign" alt="">
+                                <ul class="genre-dropdown">
+                                    <li><a href="movies.html">Movies</a></li>
+                                    <li><a href="series.html">Series</a></li>
+                                    <li><a href="anime.html">Anime</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- Nav Section ends here -->
+
+                <!-- NOTIFICATION MODAL STARTS HERE -->
+
+                <div class="notification-controller">
+                    <div class="notification-modal d-flex justify-content-end" id="notification-none">
+                        <div class="notification-modal-content">
+
+                            <div class="notification-head d-flex justify-content-between align-items-center">
+                                <span class="notification-text">Notifications</span>
+                                <span class="the-x notification-close">X</span>
+                            </div>
+
+                            <div class="notification-body">
+
+                                <div class="col for-margin d-flex justify-content-start align-items-center">
+
+                                    <div class="Notification-img">
+                                        <img src="assets/image//John_Wick_Keanu 1.png" alt="">
+                                    </div>
+                                    <div class="notification-body-text">
+                                        <span class="d-flex align-items-center">
+                                            <i class="fas fa-bell"></i>
+                                            <span class="new-entry-text">New entry :</span>
+                                        </span>
+                                        <div class="notification-movie-title">John wick</div>
+                                    </div>
+                                </div>
+                                <div class="col for-margin d-flex justify-content-start align-items-center">
+
+                                    <div class="Notification-img">
+                                        <img src="assets/image//The lovebirds.png" alt="">
+                                    </div>
+
+                                    <div class="notification-body-text">
+                                        <span class="d-flex align-items-center">
+                                            <i class="fas fa-bell"></i>
+                                            <span class="new-entry-text">New entry :</span>
+                                        </span>
+                                        <div class="notification-movie-title">Lovebirds</div>
+                                    </div>
+                                </div>
+
+                                <div class="col for-margin d-flex justify-content-start align-items-center">
+
+                                    <div class="Notification-img">
+                                        <img src="assets/image//The lovebirds.png" alt="">
+                                    </div>
+
+                                    <div class="notification-body-text">
+                                        <span class="d-flex align-items-center">
+                                            <i class="fas fa-bell"></i>
+                                            <span class="new-entry-text">New entry :</span>
+                                        </span>
+                                        <div class="notification-movie-title">Lovebirds</div>
+                                    </div>
+                                </div>
+
+                                <span
+                                    class="d-flex justify-content-start align-items-start notification-expiry-details">
+                                    <span class="expiry-bell"><i class="fas fa-bell"></i></span>
+                                    <span class="subscription-expiry">Subscription will expire on the 12/05/2021. Kindly
+                                        resubscribe. Thank you.</span>
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NOTIFICATION MODAL ENDS HERE -->
+
+                <!-- USER PROFILE MODEL STARTS HERE -->
+
+                <div class="user-profile-modal">
+                    <div class="user-profile-content">
+
+                        <div class="profile-close d-flex justify-content-end align-items-start">
+                            <span class="the-x profile-close-btn">X</span>
+                        </div>
+
+                        <div class="change-profile profile-item">
+                            <span>Change Profile</span>
+                        </div>
+                        <div class="profile-item">
+                            <span>Add Profile</span>
+                        </div>
+                        <div class="profile-item">
+                            <span>Edit Profile</span>
+                        </div>
+                        <div class="profile-item">
+                            <span>Delete Profile</span>
+                        </div>
+                        <div class="profile-item">
+                            <span>Sign Out</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- USER PROFILE MODEL ENDS HERE -->
+
+
+                <!-- CHANGE PROFILE MODAL STARTS HERE -->
+
+                <!-- delete confirmation modal starts here -->
+
+                <div class="delete-confirmtation-modal">
+
+                    <div class="for-centering">
+                        <div class="confirmation-contents">
+                            <div>
+                                <span class="the-x confirm-close-btn d-flex justify-content-end">X</span>
+                            </div>
+                            <div class="delete-all-text">
+                                <span>Delete all Profiles?</span>
+                            </div>
+                            <div class="yes-and-no">
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <span class="yesDel">Yes</span>
+                                    <span class="noDel">No</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- delete confirmation modal ends here -->
+
+                <div class="change-profile-modal">
+                    <div class="change-profile-contents">
+
+                        <div class="change-profile-top d-flex justify-content-between align-items-center">
+                            <div class="change-profile-back search-modal-top1">
+                                <div>
+                                    <i class="fas fa-arrow-left"></i>
+                                    <span>Back</span>
+                                </div>
+                            </div>
+
+                            <div class="change-profile-delete">
+                                <div class="d-flex justify-content-end align-items-center">
+                                    <span class="change-profile-x the-x">X</span>
+                                </div>
+                                <div class="profile-item" id="deleteAllBtn">
+                                    <span>Delete All</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="logo-and-profile">
+
+                            <div class="cp-logo-container d-flex justify-content-start align-items-start">
+
+                                <div class="cp-yelofim-logo d-flex justify-content-center align-items-end">
+                                    <img src="assets/image//Yelofim-icon.png" alt="" class="yelofim-iconn">
+                                    <span class="cp-yelofim-logotext">elofim</span>
+                                </div>
+                            </div>
+
+                            <div class="cp-profile-container">
+
+                                <div class="cp-grid-container">
+
+                                    <div class="grid-item deleteAllUse">
+                                        <div class="cp-avatar">
+                                            <!-- delete button modal -->
+
+                                            <div class="delete-btn-modal" id="display-all-db">
+                                                <img src="assets/image//trash.png" alt="">
+                                            </div>
+
+                                            <!-- delete button modal -->
+                                            <div class="cp-border-radius">
+                                                <img src="assets/image//Maceva.png" alt="">
+                                                <span class="cp-name d-flex justify-content-center">McEva</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid-item deleteAllUse">
+                                        <div class="cp-avatar">
+                                            <!-- delete button modal -->
+
+                                            <div class="delete-btn-modal" id="display-all-db">
+                                                <img src="assets/image//trash.png" alt="">
+                                            </div>
+
+                                            <!-- delete button modal -->
+                                            <div class="cp-border-radius">
+                                                <img src="assets/image//wifey.png" alt="">
+                                                <span class="cp-name d-flex justify-content-center">Wifey</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid-item deleteAllUse">
+                                        <div class="cp-avatar">
+                                            <!-- delete button modal -->
+
+                                            <div class="delete-btn-modal  modal-for-kids" id="display-all-db">
+                                                <img src="assets/image//trash.png" alt="">
+                                            </div>
+
+                                            <!-- delete button modal -->
+                                            <div class="for-kids">
+                                                <div class="cpkids-border-radius">
+                                                    <img class="img-kids" src="assets/image//kids.png" alt="">
+                                                    <span class="cp-name d-flex justify-content-center">Kids</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="grid-item">
+                                        <div class="cp-avatar">
+
+                                            <div class="cp-border-radius-add">
+                                                <div
+                                                    class="addprofile-circle d-flex justify-content-center align-items-center">
+                                                    <i class="fas fa-plus cp-plus-icon"></i>
+                                                </div>
+                                                <div class="cp-name add-profile d-flex justify-content-center">Add
+                                                    Profile</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="grid-item" id="delete-and-edit">
+
+                                        <div class="cp-avatar">
+                                            <div class="delete-profile">
+                                                <img src="assets/image//trash.png" alt="">
+                                                <span class="cp-name">Delete Profile</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="grid-item" id="delete-and-edit">
+
+                                        <div class="cp-avatar">
+                                            <div class="edit-profile">
+                                                <img src="assets/image//edit profile.png" alt="">
+                                                <span class="cp-name">Edit Profile</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- CHANGE PROFILE MODAL ENDS HERE -->
+
+                <!-- Search, Notification and Profile section -->
+                <div class="header-sec3 d-flex align-items-center">
+                    <div class="search-icon">
+                        <img src="assets/image//search-icon.png" alt="">
+                    </div>
+                    <div class="notification-bell">
+                        <img src="assets/image/n-bell.png" alt="">
+                    </div>
+                    <div class="profile-icon">
+                        <img src="assets/image//profile-image.png" alt="">
+                    </div>
+                </div>
+                <!-- Search, Notification and Profile section ends here -->
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="container">
+                <div class="page-title">
+                    <h2>Anime</h2>
+                </div>
+            </div>
+        </div>
+
+        <section class="container-fluid download-container">
+            <div class="container">
+                <div class="recommended">
+                    <div style="margin-top: 0 !important;" class="sec-title-little d-flex align-items-center justify-content-start flex-row bordered-blue">
+                        <div class="bordered-green">Recommended For You</div>
+                    </div>
+                    <div class="sec-content d-flex justify-content-center align-items-center position-relative bordered-green">
+                        <div class="row bordered-red d-flex justify-content-center">
+                            <div onclick="alert(' You Clicked Stuff! ');" amount="4"
+                                class=" duplicate col-sm-6 col-md-3 col-lg-3 movie-item bordered-green ">
+                                <img class="bordered-blue" src="assets/image/tr-5.png" alt="" />
+                            </div>
+                            <div onclick="alert(' You Clicked Stuff! ');" amount="4"
+                                class=" duplicate col-sm-6 col-md-3 col-lg-3 movie-item bordered-green ">
+                                <img class="bordered-blue" src="assets/image/tr-3.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="load-more pin-right-inbox"><img src="assets/image/Navigator.svg" /></div>
+                    </div>
+                </div>
+                <br />
+                <div class="new-releases">
+                    <div style="margin-top: 0 !important;" class="sec-title-little d-flex align-items-center justify-content-start flex-row bordered-blue">
+                        <div class="bordered-green">New Releases</div>
+                    </div>
+                    <div class="sec-content d-flex justify-content-center align-items-center position-relative bordered-green">
+                        <div class="row bordered-red d-flex justify-content-center">
+                            <div onclick="alert(' You Clicked Stuff! ');" amount="4"
+                                class=" duplicate col-sm-6 col-md-3 col-lg-3 movie-item bordered-green ">
+                                <img class="bordered-blue" src="assets/image/tr-4.png" alt="" />
+                            </div>
+                            <div onclick="alert(' You Clicked Stuff! ');" amount="4"
+                                class=" duplicate col-sm-6 col-md-3 col-lg-3 movie-item bordered-green ">
+                                <img class="bordered-blue" src="assets/image/tr-3.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="load-more pin-right-inbox"><img src="assets/image/Navigator.svg" /></div>
+                    </div>
+                </div>
+                <br />
+                <div class="more-movie-items">
+                    <div style="margin-top: 0 !important;" class="sec-title-little d-flex align-items-center justify-content-start flex-row bordered-blue">
+                        <div class="bordered-green">More Anime</div>
+                    </div>
+                    <div class="sec-content d-flex justify-content-center align-items-center position-relative bordered-green">
+                        <div class="row bordered-red d-flex justify-content-center">
+                            <div onclick="alert(' You Clicked Stuff! ');" amount="4"
+                                class=" duplicate col-sm-6 col-md-3 col-lg-3 movie-item bordered-green ">
+                                <img class="bordered-blue" src="assets/image/tr-2.png" alt="" />
+                            </div>
+                            <div onclick="alert(' You Clicked Stuff! ');" amount="4"
+                                class=" duplicate col-sm-6 col-md-3 col-lg-3 movie-item bordered-green ">
+                                <img class="bordered-blue" src="assets/image/tr-5.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="load-more pin-right-inbox"><img src="assets/image/Navigator.svg" /></div>
+                    </div>
+                </div>
+                <br />
+                <div class="yelo-loader bordered-blue">
+                    <img id="loader1" src="assets/image/Loader.svg" />
+                    <img id="loader2" src="assets/image/Loader.svg" />
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- footer area -->
+    <div style="margin-top: 100px;"
+        class="container-fluid footer-area d-flex justify-content-center align-items-center">
+
+        <footer class="container d-flex justify-content-between text-secondary">
+
+            <div class="footer-section-one d-flex flex-column">
+                <a href="#">
+                    <p>FAQ</p>
+                </a>
+                <a href="http://yelofim.com/corporate-page.html">
+                    <p>Investor Relations</p>
+                </a>
+                <a href="#">
+                    <p>Privacy</p>
+                </a>
+                <a href="#">
+                    <p>Speed Test</p>
+                </a>
+            </div>
+
+            <div class="footer-section-two d-flex flex-column">
+                <a href="#">
+                    <p>Help Center</p>
+                </a>
+                <a href="#">
+                    <p>Jobs</p>
+                </a>
+                <a href="#">
+                    <p>Cookie</p>
+                </a>
+                <a href="#">
+                    <p>Legal Notices</p>
+                </a>
+            </div>
+
+            <div class="footer-section-three d-flex flex-column">
+                <a href="http://watch.yelofim.com/profile">
+                    <p>Account</p>
+                </a>
+                <a href="#">
+                    <p>Ways to Watch</p>
+                </a>
+                <a href="http://yelofim.com/corporate-page.html">
+                    <p>Corporate Information</p>
+                </a>
+                <a href="http://yelofim.com/about.html">
+                    <p>About Us</p>
+                </a>
+            </div>
+
+            <div class="footer-section-four d-flex flex-column">
+                <a href="#">
+                    <p>Media Center</p>
+                </a>
+                <a href="#">
+                    <p>Terms of Use</p>
+                </a>
+                <a href="http://yelofim.com/contact.html">
+                    <p>Contact Us</p>
+                </a>
+                <a href="#">
+                    <p>Our Team</p>
+                </a>
+            </div>
+
+        </footer>
+
+    </div>
+    <!-- footer area ends here -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/header.js"></script>
+</body>
+
+</html>

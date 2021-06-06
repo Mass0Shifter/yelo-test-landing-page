@@ -1,0 +1,17 @@
+.movie-item {
+  max-width: 260px;
+  padding: 0 10px;
+  margin-bottom: 16px;  
+  border-radius: 8px;
+}
+
+.movie-item:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.movie-item img {
+  width: auto;
+  height: 260px;
+  border-radius: 8px;
+}

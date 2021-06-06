@@ -1,0 +1,46 @@
+.my-list-item {
+  max-width: 260px;
+  padding: 0 10px;
+  margin-bottom: 16px;
+}
+
+.my-list-item:hover  {
+  border-radius: 8px;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.my-list-item-add {
+  max-width: 258px;
+  height: 258px;
+  padding: 0 4px;
+  margin-bottom: 16px;
+  border: dashed 2px white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: auto 12px;
+  color: #9A9A9A;
+}
+
+.my-list-item-add:hover {
+  color: #E4B71E;
+  border: solid 2px #E4B71E;
+  cursor: pointer;
+}
+
+.my-list-item img {
+  width: 260px;
+  height: 260px;
+  border-radius: 8px;
+}
+
+.down-desc {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
